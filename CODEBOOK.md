@@ -22,9 +22,9 @@ varname_std denote the standard deviation of the variable
 
 
 ##Column names / description
-* subject 		        subject_id
-* activity_id 		    activity_id
-* activity_text   	    activity_id translated in descriptive activity names
+* subject               subject_id
+* activity_id           activity_id
+* activity_text         activity_id translated in descriptive activity names
 * tbodyacc_mean_xyz	
 * tbodyacc_std_xyz	
 * tgravityacc_mean_xyz
