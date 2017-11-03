@@ -3,8 +3,7 @@
 ##================================================================
 
 
-##================================================================
-##Generell information:
+###Generell information:
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
  
@@ -33,15 +32,17 @@ For each record it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-##=======================================================================================================================================
 
 
-##Assumption: 
+
+###Assumption: 
   data is downloaded from 
       "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   and unzipped in the working directory
 
-##Code Steps:
+
+
+###Code Steps:
 - Import data to R
 - Merge test and train data
 - Select mean and std of x, drop remaining variables
@@ -50,7 +51,9 @@ For each record it is provided:
 - Join subject, y and x  (result = daten)
 - Group by subject, activity_id and activity_text, calulate mean of all remaining columns (result = daten_3)
 
-##Created data sets:
+
+
+###Created data sets:
 - daten     (description in CODEBOOK.md)
 - daten_3	same columns as in daten, but averaged per subject/activity
 
